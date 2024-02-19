@@ -16,7 +16,7 @@
             <StackLayout>
                 <Image Source="https://i.ibb.co/SQgBSXX/circuito-cerrado-de-television.png"  VerticalOptions="Start" Margin="0,0,0,15"/>
                 <Label Text="Damian Lescas" TextColor="White" FontSize="18" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
-                <Label Text="damiianll20@gmail.com" TextColor="White" FontSize="14" VerticalTextAlignment="Center" HorizontalOptions="Center" Margin="0,0,0,50"/>
+                <Label Text="josecinuwu@gmail.com" TextColor="White" FontSize="14" VerticalTextAlignment="Center" HorizontalOptions="Center" Margin="0,0,0,50"/>
             </StackLayout>
             <StackLayout Margin="10,0,0,0">
                 <Button Text="Home" TextColor="White" FontSize="15" BackgroundColor="#26292d" ImageSource="https://i.ibb.co/7vfmgkk/casa.png" Command="{Binding IrHomeCommand}" Margin="0,0,0,15"/>
