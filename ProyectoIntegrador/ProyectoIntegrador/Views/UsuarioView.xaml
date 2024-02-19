@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoIntegrador.Views.UsuarioView">
+    
+    <StackLayout BackgroundColor="#26292d">
+
+        <Label Text="Usuario" TextColor="White" FontSize="30" FontAttributes="Bold" Margin="120,0,0,0"/>
+        <Image Source="https://i.ibb.co/hycjLF8/usuario.png" HeightRequest="100"/>
+        
+        <StackLayout>
+
+            <BoxView Color="#dee2e6" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="20,10,20,0"/>
+            <Grid Margin="20,10,20,0">
+                <Label Text="Nombre: " Grid.Row="0" Grid.Column="0" TextColor="#1da1f2" FontSize="17" VerticalOptions="Center" FontAttributes="Bold"/>
+                <Label Text="Damian Lescas Lares" Grid.Row="0" Grid.Column="1" TextColor="White" FontSize="17" Margin="-70,0,0,0"/>
+            </Grid>
+
+            <BoxView Color="#dee2e6" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="20,10,20,0"/>
+            <Grid Margin="20,10,20,0">
+                <Label Text="Correo:" Grid.Row="0" Grid.Column="0" TextColor="#1da1f2" FontSize="17" VerticalOptions="Center" FontAttributes="Bold"/>
+                <Label Text="damiianll20@gmail.com" Grid.Row="0" Grid.Column="1" TextColor="White" FontSize="17" VerticalOptions="Center" Margin="-70,0,0,0"/>
+            </Grid>
+
+            <BoxView Color="#dee2e6" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="20,10,20,0"/>
+            <Grid Margin="20,10,20,0">
+                <Label Text="Teléfono:" Grid.Row="0" Grid.Column="0" TextColor="#1da1f2" FontSize="17" VerticalOptions="Center" FontAttributes="Bold"/>
+                <Label Text="6442465218" Grid.Row="0" Grid.Column="1" TextColor="White" FontSize="17" VerticalOptions="Center" Margin="-70,0,0,0"/>
+            </Grid>
+
+            <BoxView Color="#dee2e6" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="20,10,20,0"/>
+            <Grid Margin="20,10,20,0">
+                <Label Text="Lugar:" Grid.Row="0" Grid.Column="0" TextColor="#1da1f2" FontSize="17" VerticalOptions="Center" FontAttributes="Bold"/>
+                <Label Text="Cd.Obregon, Sonora" Grid.Row="0" Grid.Column="1" TextColor="White" FontSize="17" VerticalOptions="Center" Margin="-70,0,0,0"/>
+            </Grid>
+            
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

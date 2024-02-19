@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoIntegrador.Views.MenuDesplegable.MenuDes"
+             Title="Master">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Image Source="https://i.ibb.co/Wtnp1n9/flecha-izquierda.png" HorizontalOptions="Start" Margin="0,10,0,10">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding RetrocederCommand}" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+
+            <StackLayout>
+                <Image Source="https://i.ibb.co/SQgBSXX/circuito-cerrado-de-television.png"  VerticalOptions="Center" Margin="0,0,0,15"/>
+                <Label Text="Zamo" TextColor="White" FontSize="18" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
+                <Label Text="Zamo@gmail.com" TextColor="White" FontSize="14" VerticalTextAlignment="Center" HorizontalOptions="Center" Margin="0,0,0,50"/>
+            </StackLayout>
+            <StackLayout>
+              <Button Text="Home" TextColor="White" FontSize="16" BackgroundColor="#26291d" ImageSource="https://i.ibb.co/7vfmgkk/casa.png" Command="{Binding IrHomeCommand}" Margin="0,0,0,15"/>
+                <Button Text="Historial" TextColor="White" FontSize="16" BackgroundColor="#26291d" ImageSource="https://i.ibb.co/9cZCD67/carpeta.png" Command="{Binding IrHistorialCommand}" Margin="0,0,0,15"/>
+                <Button Text="Transmicion" TextColor="White" FontSize="16"  BackgroundColor="#26291d" ImageSource="https://i.ibb.co/ZS1W2d5/camara-de-video.png" Command="{Binding IrTrasnmicionCommand}" Margin="0,0,0,15"/>
+                <Button Text="Usuario" TextColor="White" FontSize="16"  BackgroundColor="#26291d" ImageSource="https://i.ibb.co/2ySZw44/usuario.png" Command="{Binding IrAUsuarioCommand}" Margin="0,0,0,300"/>
+                <Button Text="Ajustes" TextColor="White" FontSize="16"  BackgroundColor="#26291d" ImageSource="https://i.ibb.co/PFRd9q9/cerrar-sesion.png" Margin="0,0,0,30" Command="{Binding }" />
+                <Button Text="Cerrar Sesion" TextColor="White" FontSize="16"  BackgroundColor="#26291d" ImageSource="https://i.ibb.co/2ySZw44/usuario.png" Command="{Binding IrCerrarSesionCommand}" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
+
+
+
+
+
+
+
+    
+    
+    
