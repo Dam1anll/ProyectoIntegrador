@@ -54,7 +54,9 @@ namespace ProyectoIntegrador.ViewModels.VmmenuDesplegable
             App.MasterDet.IsPresented = false;
             await App.MasterDet.Detail.Navigation.PushAsync(new SensoresView());
         }
+#pragma warning disable CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
         public async Task Retroceder()
+#pragma warning restore CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
         {
             App.MasterDet.IsPresented = false;
 
