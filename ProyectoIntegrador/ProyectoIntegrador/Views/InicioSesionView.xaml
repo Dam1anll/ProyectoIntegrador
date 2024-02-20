@@ -6,8 +6,8 @@
              NavigationPage.HasNavigationBar="False">
 
     <StackLayout BackgroundColor="#26292d">
-        
-        <Image Source="https://i.ibb.co/y8R7NT3/circuito-cerrado-de-television.png" Margin="0,70,0,0" WidthRequest="100"/>
+
+        <Image Source="https://i.ibb.co/82nZkhK/Logo.png" Margin="0,70,0,0" WidthRequest="100"/>
         
         <Label Text="Guardian Eye" HorizontalTextAlignment="Center" TextColor="White" FontSize="20" FontAttributes="Bold"/>
         

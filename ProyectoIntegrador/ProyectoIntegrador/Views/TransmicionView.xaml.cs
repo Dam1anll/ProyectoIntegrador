@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProyectoIntegrador.ViewModels;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,6 +17,7 @@ namespace ProyectoIntegrador.Views
 		{
 			InitializeComponent ();
             NavigationPage.SetHasBackButton(this, false);
+			BindingContext = new VMTransmision(Navigation);
         }
 	}
 }
